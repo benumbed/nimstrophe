@@ -1,3 +1,9 @@
 nimcache/
 nimblecache/
 htmldocs/
+
+build/
+
+**/*.key
+**/*.csr
+**/*.crt
