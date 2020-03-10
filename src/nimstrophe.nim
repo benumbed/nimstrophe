@@ -67,8 +67,8 @@ let conn = xmpp_conn_new(ctx)
 # let jid: cstring = "andromeda_test@xmpp-01.grid.bunker"
 # let pass: cstring = "temp123!"
 
-xmpp_conn_set_jid(conn, "andromeda_test@xmpp-01.grid.bunker")
-xmpp_conn_set_pass(conn, "test123!")
+xmpp_conn_set_jid(conn, "jid@example.com")
+xmpp_conn_set_pass(conn, "xxxx")
 
 discard xmpp_connect_client(conn, nil, 0, cast[xmpp_conn_handler](conn_handler), ctx)
 
